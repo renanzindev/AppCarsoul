@@ -1,0 +1,99 @@
+/* Header.css */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1b1d2b; /* Cor do fundo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 10px 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo */
+  .header-logo img {
+    height: 40px;
+  }
+  
+  /* Informações do usuário */
+  .header-user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .user-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .user-title {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .user-progress {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .badge {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .badge-gold {
+    background-color: gold;
+  }
+  
+  .badge-silver {
+    background-color: silver;
+  }
+  
+  .badge-bronze {
+    background-color: #cd7f32;
+  }
+  
+  .badge-incomplete {
+    background-color: #2b2d3b;
+    border: 2px dashed #fff;
+  }
+  
+  /* Menu Icon */
+  .header-menu .menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header-menu .menu-icon {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    border-radius: 3px;
+  }
+  
